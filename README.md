@@ -32,5 +32,7 @@ Langkah-Langkah dan cara menjalankan notebook:
 <img width="695" height="547" alt="hasil" src="https://github.com/user-attachments/assets/2aaea469-581f-4809-a4db-01f6e0c32406" />
 
 Mahasiswa Universitas Darwan Ali (UNDA)
+
 Nama: Jonathan Stevanus THE
+
 NPM:  2457201002387
