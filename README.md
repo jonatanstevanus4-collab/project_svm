@@ -1,5 +1,4 @@
-# project_svm
-PROJECT MACHINE LEARNING – Support Vector Machine (SVM)
+#PROJECT MACHINE LEARNING – Support Vector Machine (SVM)
 Dataset berisi rekaman data mahasiswa yang digunakan untuk memprediksi status kelulusan mereka (Lulus Tepat Waktu atau Lulus Terlambat) berdasarkan kombinasi faktor akademik dan demografi.
 Langkah-Langkah dan cara menjalankan notebook:
 -upload file csv di folder google drive
