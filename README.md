@@ -18,6 +18,7 @@ Langkah-Langkah dan cara menjalankan notebook:
 2. Analisis Missing Values: Tentukan strategi penanganan (Imputasi Median direkomendasikan untuk IPK dan IPS 8). 
 3. Visualisasi Kunci: Buat Histogram IPK dan Countplot Status Kelulusan. 
 4. Analisis Komparatif: Buat Violin Plot atau Box Plot IPK vs STATUS KELULUSAN untuk melihat perbedaan distribusi.
+   
 -Data Preprocessing
 
 1. Imputasi: Terapkan Imputasi Median pada missing values. 
@@ -28,11 +29,13 @@ Langkah-Langkah dan cara menjalankan notebook:
 
 1. Definisikan Grid: Siapkan parameter grid untuk GridSearchCV yang mencakup: a. kernel='linear' dengan $C=\{0.1, 1, 10\}$. b. kernel='rbf' dengan $C=\{0.1, 1, 10\}$ dan $\gamma=\{\text{'scale'}, 0.1, 1\}$. 
 2. Grid Search: Latih model SVC menggunakan GridSearchCV dengan $cv=5$ untuk menemukan kombinasi hyperparameter terbaik (baik untuk Linear maupun RBF). 3. Simpan Model: Simpan best_model dan preprocessor menggunakan pickle.
+
 -Evaluasi & Interpretasi
 
 1. Prediksi: Lakukan prediksi pada data uji (X_test) menggunakan best_model. 
 2. Metrik: Hitung dan tampilkan Confusion Matrix, Classification Report (Precision, Recall, F1-score), dan Accuracy Score. 
 3. Analisis: Bandingkan performa model Linear dan RBF. Jelaskan pengaruh parameter $C$. Interpretasikan fitur dominan (misalnya IPK) terhadap kelulusan.
+   
 -Deployment
 
 1. Fungsi Prediksi: Buat fungsi Python sederhana (predict_status(umur, ipk, ips, ...) ) yang menerima input mentah, menerapkan preprocessor yang sudah dilatih, dan memberikan prediksi status kelulusan.
